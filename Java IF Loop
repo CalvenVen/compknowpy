@@ -1,0 +1,23 @@
+package Java;
+
+public class Loop {
+	public static void main(String [] args) {
+		Java(12,12);
+	}
+	
+	public static void Java (int a, int b ){
+		
+		if (a < b) {
+			System.out.println("A:" + a + " is less than B: " + b);
+			
+		}else if(a==b) {
+			System.out.println("A: " + a + " is equal to B:" + b);
+			
+		}else {
+			System.out.println("A: " + a + " is greater than B:" + b);
+			
+		}
+			
+		
+	}
+}
