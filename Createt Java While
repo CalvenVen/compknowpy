@@ -1,0 +1,14 @@
+package Java;
+
+public class While {
+	public static void main (String [] args) {
+		Java (1,11);
+	}
+
+	public static void Java (int counter, int max_lim ) {
+		while (counter < max_lim) {
+			System.out.println(counter);
+			counter ++;
+		}
+	}
+}
