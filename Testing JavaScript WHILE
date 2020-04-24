@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var counter = 1;
+var max_lim = 11;
+var text = "";
+while (counter) {
+  text += counter + "<br>";
+  counter++;
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
