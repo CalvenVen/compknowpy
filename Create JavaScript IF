@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get answer:</p>
+
+<button onclick="myFunction()">Calculate</button>
+
+<p id="JavaScript"></p>
+
+<script>
+function myFunction() {
+  var result;
+  var a = 12;
+  var b = 12;
+  if (a < b) {
+    result = "A is lesser than B";
+  } else if (a = b) {
+    result = "A is equal to B ";
+  } else {
+    result = "A is greater than B";
+  }
+  document.getElementById("JavaScript").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
